@@ -1,16 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Slanje formulara</title>
 </head>
+
 <body>
 
     <form action="https://formspree.io/damjan.pavlica@code.edu.rs" method="POST">
-        Poruka: <input type="text" name="poruka">
+        <div>Ime:
+            <br>
+            <input name="ime">
+        </div>
+        <div>Prezime:
+            <br>
+            <input name="prezime">
+        </div>
+        <div>Poruka:
+            <br>
+            <textarea name="poruka" cols="30" rows="10"></textarea>
+        </div>
         <button>Pošalji</button>
     </form>
 
 </body>
+
 </html>
